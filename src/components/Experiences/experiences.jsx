@@ -42,23 +42,6 @@ const Experiences = () =>{
                 <article className="experince__ddetails">
                     <BsPatchCheckFill className="experienceIcons"/>
                     <div>
-                    <h4> Boostrap </h4>
-                    <small className="text-light">Intermediate</small>
-                    </div>
-                   
-                </article>
-
-                <article className="experince__ddetails">
-                    <BsPatchCheckFill className="experienceIcons"/>
-                   <div>
-                   <h4> Tailwind </h4>
-                    <small className="text-light">Basics</small>
-                   </div>
-                </article>
-
-                <article className="experince__ddetails">
-                    <BsPatchCheckFill className="experienceIcons"/>
-                    <div>
                     <h4> React.js  </h4>
                     <small className="text-light">Intermediate</small>
                     </div>
@@ -79,29 +62,12 @@ const Experiences = () =>{
                     </div>
                 </article>
 
-                <article className="experince__ddetails">
-
-                    <BsPatchCheckFill className="experienceIcons"/>
-                    <div>
-                    <h4> PHP </h4>
-                    <small className="text-light">Basics</small>
-                    </div>
-                </article>
-
-
-                <article className="experince__ddetails">
-                    <BsPatchCheckFill className="experienceIcons"/>
-                    <div>
-                    <h4> Python </h4>
-                    <small className="text-light">Basics</small>
-                    </div>
-                </article>
-
+               
                 <article className="experince__ddetails">
                     <BsPatchCheckFill className="experienceIcons"/>
                     <div>
                     <h4> MogoDB </h4>
-                    <small className="text-light">None</small>
+                    <small className="text-light"> In-View </small>
                     </div>
                 </article>
 

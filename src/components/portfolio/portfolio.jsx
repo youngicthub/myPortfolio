@@ -9,29 +9,29 @@ import IMG6 from '../../../src/assets/portfolio6.webp'
 
 
 const data = [
-  {
-    id: 1, 
-    image: IMG1,
-    title: 'Crypto Exchange Website',
-    github: 'https://github.com/youngicthub',
-    demo: 'https://dribbble.com/shots/21516271-Crypto-Exchange-Website',
-  },
+  // {
+  //   id: 1, 
+  //   image: IMG1,
+  //   title: 'Crypto Exchange Website',
+  //   github: 'https://github.com/youngicthub',
+  //   demo: 'https://dribbble.com/shots/21516271-Crypto-Exchange-Website',
+  // },
 
-  {
-    id: 2, 
-    image: IMG2,
-    title: 'Some [W]ork [I]n [P]rogress from Hypercal Website',
-    github: 'https://github.com/youngicthub',
-    demo: 'https://dribbble.com/shots/21513760--Some-W-ork-I-n-P-rogress',
-  },
+  // {
+  //   id: 2, 
+  //   image: IMG2,
+  //   title: 'Some [W]ork [I]n [P]rogress from Hypercal Website',
+  //   github: 'https://github.com/youngicthub',
+  //   demo: 'https://dribbble.com/shots/21513760--Some-W-ork-I-n-P-rogress',
+  // },
   
-  {
-    id: 3, 
-    image: IMG3,
-    title: 'SCreative Startup Agency / Website',
-    github: 'https://github.com/youngicthub',
-    demo: 'https://dribbble.com/shots/21515366-SaaS-Pricing-Page-Design',
-  },
+  // {
+  //   id: 3, 
+  //   image: IMG3,
+  //   title: 'SCreative Startup Agency / Website',
+  //   github: 'https://github.com/youngicthub',
+  //   demo: 'https://dribbble.com/shots/21515366-SaaS-Pricing-Page-Design',
+  // },
 
   {
     id: 4, 

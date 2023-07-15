@@ -9,29 +9,21 @@ const Services = () => {
       <h2>My Services </h2>
 
       <div className="container container__services">
-        <article className="services">
-          <div className="service__head">
-            <h3> IOS/Andriod </h3>
+        <article className="services"> 
+          <div className="service__head"> 
+            <h3> Graphic Dessign </h3>
           </div>
           <ul className="serviceList">
             <li>
               <BsCheckAll className="serviceList-icon" />
-              <p>Efficient ToDO Task App</p>
+              <p>LogoMaing</p>
             </li>
 
             <li>
               <BsCheckAll className="serviceList-icon" />
-              <p>Interactive Social App</p> 
+              <p>Branding</p> 
             </li>
-            <li>
-              <BsCheckAll className="serviceList-icon" />
-              <p>Web Apps</p>
-            </li>
-            <li>
-              <BsCheckAll className="serviceList-icon" />
-              <p>Educational Apps</p>
-            </li>
-          </ul>
+           </ul>
         </article>
         {/* End of Web Dev Services */}
 

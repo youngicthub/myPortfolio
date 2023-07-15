@@ -32,21 +32,22 @@ const About = () =>{
 
               <article className="about__card">
                 <FiUsers className="about__icon"/>
-                <h4>Clients</h4>
-                <small> 150+ Worldwide </small>
+                <h4>Team/Client</h4>
+                <small> 2+ Globally </small>
               </article>
 
 
               <article className="about__card">
                 <VscFolderActive className="about__icon"/>
                 <h4>Projects</h4>
-                <small> 30+ Completed </small>
+                <small> 10+ Individual Project Completed </small>
               </article>
 
             </div>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime aut ut nisi ipsam inventore praesentium error possimus. Fugiat esse perferendis velit quisquam vel, saepe, quis quibusdam, quia repellat sit quae.</p>
+            <p>I am a Self-Taught  web developer specializing in ReactJS, CSS3, HTML5, and JavaScript. Throughout my career, I have successfully developed and implemented visually appealing, responsive and user-friendly web interfaces using these technologies.
+</p>
 
-            <a href="#contact" className="btn btn-primary">Let's Talk</a>
+            <a href="#contact" className="btn btn-primary">Contact me</a>
           </div>
         </div>
       </section>

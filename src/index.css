@@ -11,9 +11,9 @@
 
 :root{
     --color-bg: #000000;
-    --color-bg-varient: #621b88b5;
-    --color-primary: #8c32e0;
-    --color-primary-varient: #7107bc;
+    --color-bg-varient: #0a9fd1;
+    --color-primary: #0A2B8E;
+    --color-primary-varient: #367e9b;
     --color-white: #fff;
     --color-light: #d5caca;
 
@@ -38,7 +38,7 @@ body{
     color: var(--color-white);
     line-height: 1.7;
     background: rgb(0,0,0);
-background: linear-gradient(90deg, rgba(0,0,0,1) 21%, rgba(22, 3, 31, 0.802) 50%, rgba(0,12,14,1) 88%);
+background: linear-gradient(90deg, rgba(0,0,0,1) 28%, rgba(13, 11, 36, 0.802) 50%, rgba(0,12,14,1) 78%);
 }
 
 
