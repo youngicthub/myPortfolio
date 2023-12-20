@@ -1,0 +1,137 @@
+header{
+    height: 100vh;
+    padding-top: 3rem;
+    overflow: hidden;
+}
+
+.containerHeader{
+    text-align: center;
+    height: 100%;
+    position: relative;
+}
+
+
+/*  ======= CTA Styling ====== */
+
+.cta{
+    margin-top: 2.5rem;
+    display: flex;
+    justify-content: center;
+    gap: 1.2rem;
+}
+.cta a{
+    color: #fff;
+}
+
+/*  ======= HEADER SOCIALS Styling ====== */
+
+.header__socials{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    left: 10%;
+    bottom: 3rem;
+    gap: 1rem;
+} 
+
+.header__socials::after{
+    content: '';
+    width: 1px;
+    height: 2rem;
+    background: var(--color-primary);
+}
+
+/*  ======= Header Image Styling ====== */
+/* .pics{
+    background: linear-gradient(var(--color-primary), transparent);
+    width: 30rem;
+    height: 45rem;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 2rem;
+    border-radius: 12rem 12rem 0 0;
+    overflow: hidden;
+    padding: 5rem 1.5rem 1.5rem 1.5rem;
+}
+
+.pics img{
+    margin-top: -15%;
+    margin-left: 0%;
+    width: 100%;
+} */
+
+
+
+#about__me{
+    margin-left: 36%;
+    margin-top: 50px;
+    width: 400px;
+    height: 600px;
+    /* padding: 3rem; */
+    /* margin: 0 6rem ;  */
+    /* width: 100%; */
+    aspect-ratio: 1/1;
+    border-radius: 2rem;
+    background: linear-gradient(45deg, transparent, var(--color-primary),transparent);
+    /* display: grid; */
+    place-items: center;
+    
+}
+
+#about__img_me{
+    width: 400px;
+    height: 600px;
+    border-radius: 2rem;
+    overflow: hidden;
+    transform: rotate(10deg);
+}
+#about__img_me img{
+    margin-top: -25%;
+    width: 100%;
+    height: fit-content;
+}
+
+
+#about__img_me:hover{
+    transform: rotate(0);
+    transition: var(--transition);
+}
+
+/* ====== scrollDown ===== */
+.scroll__down{
+    position: absolute;
+    bottom: 5rem;
+    right: -0.2px;
+    transform: rotate(90deg);
+    font-weight: 500;
+    font-size: 0.9rem;
+}
+
+
+
+/* =========== media queries for Small screen */
+
+@media screen and (max-width: 1024px) {
+    header{
+        height: 68vh;
+    }
+  
+}
+
+
+
+/* =========== media queries for Small screen */
+
+@media screen and (max-width: 600px) {
+    header{
+        height: 100vh;
+    }
+    .header__socials, .scroll__down{
+        display: none;
+    }
+    .pics{
+        width: 90%;
+    }
+}
