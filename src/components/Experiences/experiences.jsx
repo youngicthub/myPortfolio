@@ -67,7 +67,11 @@ const Experiences = () =>{
                     <BsPatchCheckFill className="experienceIcons"/>
                     <div>
                     <h4> MogoDB </h4>
+<<<<<<< HEAD
                     <small className="text-light"> Basics </small>
+=======
+                    <small className="text-light"> In-View </small>
+>>>>>>> 602465baa21dbe5857a44337cea53aeddf3f93a6
                     </div>
                 </article>
 
