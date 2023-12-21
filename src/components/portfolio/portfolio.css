@@ -1,7 +1,8 @@
 .portfolioContainer{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 2.5rem;
+    gap: 3.5rem;
+    height: auto;
 }
 
 .portfolioItems{
@@ -10,6 +11,7 @@
     border-radius: 2rem;
     border: 1px solid transparent;
     transition: var(--transition);
+    /* height: auto; */
 }
 
 .portfolioItems:hover{
@@ -21,15 +23,9 @@
     border-radius: 1.5rem;
     overflow: hidden;
 }
-<<<<<<< HEAD
 .portfolioItemsImage img{
-    width: 100%;
-    padding: 0;
-    margin: 0;
-    height: 300px;
+    height: 200px;
 }
-=======
->>>>>>> 602465baa21dbe5857a44337cea53aeddf3f93a6
 
 .portfolioItems h3{
     margin: 1.2rem 0 2rem;

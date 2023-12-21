@@ -1,16 +1,9 @@
 import React from "react";
 import './portfolio.css'
-<<<<<<< HEAD
-// import IMG1 from '../../../src/assets/portfolio1.webp'
-// import IMG2 from '../../../src/assets/portfolio2.webp'
-// import IMG3 from '../../../src/assets/portfolio3.webp'
-import IMG4 from '../../assets/covidmeds.png'
-=======
 import IMG1 from '../../../src/assets/portfolio1.webp'
 import IMG2 from '../../../src/assets/portfolio2.webp'
 import IMG3 from '../../../src/assets/portfolio3.webp'
-import IMG4 from '../../../src/assets/portfolio4.webp'
->>>>>>> 602465baa21dbe5857a44337cea53aeddf3f93a6
+import IMG4 from '../../../src/assets/covidmeds.png'
 import IMG5 from '../../../src/assets/portfolio5.webp'
 import IMG6 from '../../../src/assets/portfolio6.webp'
 
@@ -19,7 +12,7 @@ const data = [
   // {
   //   id: 1, 
   //   image: IMG1,
-  //   title: 'Crypto Exchange Website',
+  //   title: 'Amaz',
   //   github: 'https://github.com/youngicthub',
   //   demo: 'https://dribbble.com/shots/21516271-Crypto-Exchange-Website',
   // },
@@ -43,15 +36,9 @@ const data = [
   {
     id: 4, 
     image: IMG4,
-<<<<<<< HEAD
-    title: 'E-Commerce site fully responsive built on reactjs',
+    title: 'Fully responsive E-commerce web Application',
     github: 'https://github.com/GabrielDelight/buyivermectin.org',
     demo: 'https://www.covimeds.org/',
-=======
-    title: 'SaaS Pricing Page Design',
-    github: 'https://github.com/youngicthub',
-    demo: 'https://dribbble.com/shots/21488751-Creative-Startup-Agency-Website',
->>>>>>> 602465baa21dbe5857a44337cea53aeddf3f93a6
   },
 
   {

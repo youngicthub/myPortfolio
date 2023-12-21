@@ -1,0 +1,35 @@
+.conatainer-footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: 5rem;
+    gap: 5rem;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.quciLinks{
+    display: grid;
+    transition: var(--transition);
+}
+
+
+.quciLinks a{
+    color: var(--color-white);
+    font-size: 1rem;
+}
+
+.quciLinks a:hover{
+    color: var(--color-primary);
+    background: transparent;
+}
+
+.footerLink{
+    display: flex;
+    flex-direction: row;
+    gap: 0.9rem;
+}
+
+.footerContainer p{
+    text-align: center;
+    margin-bottom: 2rem;
+}
